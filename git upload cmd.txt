@@ -1,0 +1,24 @@
+1 git init
+2 git add .
+            optional :git config --global user.email "ibrahimsoftmaster@gmail.com"
+            name :  git config --global user.name "brahimsm83"
+
+3 git commit -m "Miamz project 2nd commit"
+4 make repositery 
+5 git remote add origin link repo
+
+6 git push -u origin master
+
+
+git remote alrady exit
+Solution  
+create a new remote repository with that name.
+Make naw repo
+1:git remote set-url origin repolink
+Like:git remote set-url origin https://github.com/ibrahimsm83/arabicAppFlutter
+
+2:git branch -M main
+3:git push -u origin master
+
+git remote -v //check remote origin
+git remote rm //clear and try again
